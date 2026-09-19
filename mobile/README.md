@@ -5,7 +5,7 @@
 Whenever you turn on your PC and open the app:
 
 ### Step 1: On Your PC
-Double-click **`start_server.bat`** in the main project folder.
+Double-click **`scripts/start_server.bat`**.
 - This automatically starts the Laravel server on port 8000 and detects your PC's Wi-Fi IP address.
 - *(Keep this window open while testing)*.
 
@@ -20,7 +20,7 @@ Open the SeaPass app:
 ## ⚡ Using USB Cable Instead? (Zero-Setup Alternative)
 If you connect your phone to your PC via USB cable:
 1. Plug in your USB cable (with USB debugging enabled).
-2. Run `start_server.bat` (it automatically sets up USB reverse forwarding).
+2. Run `scripts/start_server.bat` (it automatically sets up USB reverse forwarding).
 3. In the app, select **USB Debugging (ADB Reverse)** or tap **Auto-Connect Server**.
 
 ---
@@ -28,7 +28,7 @@ If you connect your phone to your PC via USB cable:
 ## 🔧 One-Time Setup (Only Do This Once)
 
 If your phone cannot connect over Wi-Fi, make sure Windows isn't blocking port 8000:
-1. Right-click **`setup_firewall.bat`** in the project folder and choose **Run as Administrator**.
+1. Right-click **`scripts/setup_firewall.bat`** and choose **Run as Administrator**.
 2. Click **Yes** on the Windows prompt.
 3. Done! Port 8000 is now permanently open.
 

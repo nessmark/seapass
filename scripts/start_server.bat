@@ -47,5 +47,5 @@ echo   TIP: Keep this window AND the 'ngrok Tunnel' window open during demo.
 echo   Press Ctrl+C to stop the Laravel server.
 echo.
 
-cd /d "%~dp0SeaPass"
+cd /d "%~dp0..\web"
 php artisan serve --host=127.0.0.1 --port=8000
